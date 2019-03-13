@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RefactoredDuckBehavior\RefactoredDuckBehavior.csproj">
+      <Project>{061D5993-049C-49C8-A83A-074BA3817851}</Project>
+      <Name>RefactoredDuckBehavior</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
