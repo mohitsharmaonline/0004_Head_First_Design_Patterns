@@ -45,15 +45,23 @@
   <ItemGroup>
     <Compile Include="DecoyDuck.cs" />
     <Compile Include="Duck.cs" />
+    <Compile Include="Flyable.cs" />
+    <Compile Include="LimitedDecoyDuck.cs" />
+    <Compile Include="LimitedDuck.cs" />
+    <Compile Include="LimitedMallardDuck.cs" />
+    <Compile Include="LimitedRedHeadDuck.cs" />
+    <Compile Include="LimitedRubberDuck.cs" />
     <Compile Include="MallardDuck.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quackable.cs" />
     <Compile Include="RedHeadDuck.cs" />
     <Compile Include="RubberDuck.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="DuckInheritanceExample.cd" />
+    <None Include="DuckInterfaceExample.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
