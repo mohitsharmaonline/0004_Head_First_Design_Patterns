@@ -6,7 +6,7 @@ namespace RefactoredDuckBehavior
     {
         public RedHeadDuck()
         {
-            FlyBehaviour = new FlyWithWings();
+            FlyBehavior = new FlyWithWings();
             QuackBehavior = new Quack();
         }
         public override void Display()

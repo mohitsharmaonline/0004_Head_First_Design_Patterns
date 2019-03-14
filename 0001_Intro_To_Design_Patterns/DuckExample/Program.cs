@@ -1,9 +1,4 @@
 ﻿using RefactoredDuckBehavior;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DuckExample
 {
@@ -11,7 +6,9 @@ namespace DuckExample
     {
         static void Main(string[] args)
         {
-            
+            Duck mallardDuck = new MallardDuck();
+            mallardDuck.PerformQuack();
+            mallardDuck.PerformFly();
         }       
     }
 }

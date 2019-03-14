@@ -6,18 +6,14 @@ namespace RefactoredDuckBehavior
     {
         public IQuackBehavior QuackBehavior
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
-        public IFlyBehaviour FlyBehaviour
+        public IFlyBehaviour FlyBehavior
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public virtual void Display()

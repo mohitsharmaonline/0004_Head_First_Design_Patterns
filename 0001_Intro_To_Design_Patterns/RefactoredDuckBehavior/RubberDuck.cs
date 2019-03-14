@@ -7,7 +7,7 @@ namespace RefactoredDuckBehavior
 
         public RubberDuck()
         {
-            FlyBehaviour = new FlyNoWay();
+            FlyBehavior = new FlyNoWay();
             QuackBehavior = new Squeak();
         }
         public override void Display()
