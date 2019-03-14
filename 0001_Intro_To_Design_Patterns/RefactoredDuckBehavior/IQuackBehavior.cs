@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RefactoredDuckBehavior
 {
-    public interface QuackBehavior
+    public interface IQuackBehavior
     {
         void Quack();
     }

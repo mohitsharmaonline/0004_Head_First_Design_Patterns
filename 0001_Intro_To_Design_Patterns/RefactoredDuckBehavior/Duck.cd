@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RefactoredDuckBehavior.Duck">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAQAAAAAAAAAAAAAQAAAQAAACABAAAAAAAAAAA=</HashCode>
+      <FileName>Duck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefactoredDuckBehavior.MallardDuck">
+    <Position X="1" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MallardDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefactoredDuckBehavior.RedHeadDuck">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RedHeadDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefactoredDuckBehavior.RubberDuck">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RubberDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefactoredDuckBehavior.DecoyDuck">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DecoyDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

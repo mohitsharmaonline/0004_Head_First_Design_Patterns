@@ -4,9 +4,9 @@ using System.Text;
 
 namespace RefactoredDuckBehavior
 {
-    public class Quack : QuackBehavior
+    public class Quack : IQuackBehavior
     {
-        void QuackBehavior.Quack()
+        void IQuackBehavior.Quack()
         {
             Console.WriteLine("Quack quack...");
         }

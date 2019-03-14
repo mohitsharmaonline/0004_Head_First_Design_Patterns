@@ -19,7 +19,7 @@
   <Class Name="RefactoredDuckBehavior.Quack">
     <Position X="4" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Quack.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -43,23 +43,23 @@
   <Class Name="RefactoredDuckBehavior.RocketPoweredFlying">
     <Position X="2.75" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
       <FileName>RocketPoweredFlying.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="RefactoredDuckBehavior.FlyBehaviour">
+  <Interface Name="RefactoredDuckBehavior.IFlyBehaviour" Collapsed="true">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
-      <FileName>FlyBehaviour.cs</FileName>
+      <FileName>IFlyBehaviour.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="RefactoredDuckBehavior.QuackBehavior">
+  <Interface Name="RefactoredDuckBehavior.IQuackBehavior">
     <Position X="2.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
-      <FileName>QuackBehavior.cs</FileName>
+      <FileName>IQuackBehavior.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Tahoma" Size="8.25" />

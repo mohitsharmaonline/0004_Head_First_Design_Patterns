@@ -4,11 +4,11 @@ using System.Text;
 
 namespace RefactoredDuckBehavior
 {
-    public class Squeak : IQuackBehavior
+    public class RubberDuck : Duck
     {
-        public void Quack()
+        public override void Display()
         {
-            Console.WriteLine("Squeak squeak...");
+            Console.WriteLine("Rubber Duck Display.");
         }
     }
 }

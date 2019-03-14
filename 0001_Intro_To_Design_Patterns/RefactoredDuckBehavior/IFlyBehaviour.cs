@@ -1,7 +1,7 @@
 ﻿
 namespace RefactoredDuckBehavior
 {
-    public interface FlyBehaviour
+    public interface IFlyBehaviour
     {
         void Fly();
     }

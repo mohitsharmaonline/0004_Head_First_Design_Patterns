@@ -2,7 +2,7 @@
 
 namespace RefactoredDuckBehavior
 {
-    public class RocketPoweredFlying : FlyBehaviour
+    public class RocketPoweredFlying : IFlyBehaviour
     {
         public void Fly()
         {

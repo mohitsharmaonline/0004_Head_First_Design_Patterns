@@ -2,7 +2,7 @@
 
 namespace RefactoredDuckBehavior
 {
-    public class MuteQuack : QuackBehavior
+    public class MuteQuack : IQuackBehavior
     {
         public void Quack()
         {
