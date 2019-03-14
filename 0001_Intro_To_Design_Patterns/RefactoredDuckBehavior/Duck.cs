@@ -4,7 +4,7 @@ namespace RefactoredDuckBehavior
 {
     public abstract class Duck
     {
-        public IFlyBehaviour FlyBehavior
+        public IQuackBehavior QuackBehavior
         {
             get => default;
             set
@@ -12,7 +12,7 @@ namespace RefactoredDuckBehavior
             }
         }
 
-        public IQuackBehavior QuackBehavior
+        public IFlyBehaviour FlyBehaviour
         {
             get => default;
             set
