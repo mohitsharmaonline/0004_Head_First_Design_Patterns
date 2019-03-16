@@ -35,5 +35,15 @@ namespace RefactoredDuckBehavior
         {
             FlyBehavior.Fly();
         }
+
+        public void SetFlyBehavior(IFlyBehaviour flyBehaviour)
+        {
+            FlyBehavior = flyBehaviour;
+        }
+
+        public void SetQuackBehavior(IQuackBehavior quackBehavior)
+        {
+            QuackBehavior = quackBehavior;
+        }
     }
 }

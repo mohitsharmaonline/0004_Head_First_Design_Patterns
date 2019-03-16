@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="RefactoredDuckBehavior.Duck" Collapsed="true">
+  <Class Name="RefactoredDuckBehavior.Duck">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAEAQAAAAAAAAAAAAAQAAAQAAACABAAAAAAAAAAA=</HashCode>
+      <HashCode>AACAAAAQAAAAAAAAAAAAAQAAAQAAACABCAAAAAAAAAA=</HashCode>
       <FileName>Duck.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="QuackBehavior" />
-      <Property Name="FlyBehaviour" />
+      <Property Name="FlyBehavior" />
     </ShowAsAssociation>
   </Class>
   <Class Name="RefactoredDuckBehavior.MallardDuck" Collapsed="true">

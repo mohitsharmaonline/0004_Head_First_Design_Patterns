@@ -3,7 +3,7 @@
   <Class Name="RefactoredDuckBehavior.Duck">
     <Position X="2.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AACAAAAQAAAAAAAAAAAAAQAAAQAAACABAAAAAAAAAAA=</HashCode>
+      <HashCode>AACAAAAQAAAAAAAAAQAAAQAAAQAAACABCAAAAAAAAAA=</HashCode>
       <FileName>Duck.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -33,6 +33,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DecoyDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefactoredDuckBehavior.ModelDuck">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelDuck.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Tahoma" Size="8.25" />
