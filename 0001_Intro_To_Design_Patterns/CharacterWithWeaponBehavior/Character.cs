@@ -19,7 +19,7 @@ namespace CharacterWithWeaponBehavior
 
         public void SetWeapon(IWeaponBehavior weapon)
         {
-            WeaponBehavior = weapon;
+            WeaponBehavior = weapon; 
         }
     }
 }
