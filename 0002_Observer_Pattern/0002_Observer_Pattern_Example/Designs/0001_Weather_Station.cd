@@ -3,7 +3,7 @@
   <Class Name="Designs.WeatherData">
     <Position X="1" Y="3" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAQAggAAAAgAAAABAAAAAAAAAAAAIAAAAAAAAAAgEAA=</HashCode>
+      <HashCode>AAQAggAAAAgAQAABAAABAAAAAAAAIAAAAAQAAAQgDAA=</HashCode>
       <FileName>WeatherData.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -11,7 +11,7 @@
   <Class Name="Designs.CurrentConditions">
     <Position X="3.5" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQAAAAAAAAAAACAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAQAgAAAAAAAAACAAAAAAQAAAAAAAAAAAAQAAAAABAA=</HashCode>
       <FileName>CurrentConditions.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -22,18 +22,15 @@
   <Class Name="Designs.StatisticsDisplay">
     <Position X="5.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQAAAAAAAAAAACAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAQAgAAAAAAAACCAAAAAAQAIAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>StatisticsDisplay.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="WeatherData" />
-    </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Designs.ForecastDisplay">
     <Position X="7.5" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQAAAAAAAAAAACAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAQAgAAAAAAAAASAAAAAAQAAAAAAAAAAAAAEAAAAAAA=</HashCode>
       <FileName>ForecastDisplay.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -55,12 +52,9 @@
   <Interface Name="Designs.ISubject">
     <Position X="1" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAAAgEAA=</HashCode>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAAAgCAA=</HashCode>
       <FileName>ISubject.cs</FileName>
     </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Property Name="IObservers" />
-    </ShowAsCollectionAssociation>
   </Interface>
   <Interface Name="Designs.IObserver">
     <Position X="3.5" Y="0.5" Width="1.5" />

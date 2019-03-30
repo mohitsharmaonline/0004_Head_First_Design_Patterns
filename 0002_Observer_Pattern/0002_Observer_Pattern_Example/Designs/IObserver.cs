@@ -7,6 +7,6 @@ namespace Designs
 {
     public interface IObserver
     {
-        void Update();
+        void Update(decimal temperature, decimal humidity, decimal pressure);
     }
 }

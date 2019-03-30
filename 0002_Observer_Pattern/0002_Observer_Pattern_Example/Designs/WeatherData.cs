@@ -7,37 +7,68 @@ namespace Designs
 {
     public class WeatherData : ISubject
     {
-        public List<IObserver> IObservers { get; set; }
+        private readonly List<IObserver> _observers;
+        private decimal _temperature;
+        private decimal _humidity;
+        private decimal _pressure;
+
+        public WeatherData()
+        {
+            _observers = new List<IObserver>();
+        }
+
+        public List<IObserver> Observers
+        {
+            get
+            {
+                return _observers;
+            }
+        }
 
         public decimal GetTemperature()
         {
-            return 0;
+            return _temperature;
         }
 
         public decimal GetHumidity()
         {
-            return 0;
+            return _humidity;
         }
 
         public decimal GetPressure()
         {
-            return 0;
+            return _pressure;
         }
 
         public void MeasurementsChanged()
         {
+            NotifyObservers();
         }
 
-        public void RegisterObserver()
+        public void RegisterObserver(IObserver observer)
         {
+            _observers.Add(observer);
         }
 
-        public void RemoveObserver()
+        public void RemoveObserver(IObserver observer)
         {
+            _observers.Remove(observer);
         }
 
         public void NotifyObservers()
         {
+            foreach (var observer in _observers)
+            {
+                observer.Update(_temperature, _humidity, _pressure);
+            }
+        }
+
+        public void SetMeasurements(decimal temperature, decimal humidity, decimal pressure)  
+        {
+            _temperature = temperature;
+            _humidity = humidity;
+            _pressure = pressure;
+            MeasurementsChanged();
         }
     }
 }

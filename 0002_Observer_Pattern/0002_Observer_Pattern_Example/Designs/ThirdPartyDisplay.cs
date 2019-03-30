@@ -17,7 +17,7 @@ namespace Designs
         {
         }
 
-        public void Update()
+        public void Update(decimal temp, decimal humidity, decimal pressure)
         {
         }
     }

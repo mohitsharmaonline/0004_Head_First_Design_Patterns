@@ -7,10 +7,10 @@ namespace Designs
 {
     public interface ISubject
     {
-        List<IObserver> IObservers { get; set; }
+        List<IObserver> Observers { get;}
 
-        void RegisterObserver();
-        void RemoveObserver();
+        void RegisterObserver(IObserver observer);
+        void RemoveObserver(IObserver observer);
         void NotifyObservers();
     }
 }

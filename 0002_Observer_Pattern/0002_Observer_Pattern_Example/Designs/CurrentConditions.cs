@@ -7,18 +7,35 @@ namespace Designs
 {
     public class CurrentConditions : IObserver, IDisplayElement
     {
-        public WeatherData WeatherData
+        private decimal _temperature;
+        private decimal _humidity;
+        private readonly ISubject _weatherData;
+
+        public CurrentConditions(ISubject weatherData)
         {
-            get;
-            set;
+            _weatherData = weatherData;
+            _weatherData.RegisterObserver(this);
+        }
+
+
+        public ISubject WeatherData
+        {
+            get
+            {
+                return _weatherData;
+            }
         }
 
         public void Display()
         {
+            Console.WriteLine($"Current Conditions: temperature {_temperature}F degrees and humidity {_humidity}%");
         }
 
-        public void Update()
+        public void Update(decimal temp, decimal humidity, decimal pressure)
         {
+            _temperature = temp;
+            _humidity = humidity;
+            Display();
         }
     }
 }
