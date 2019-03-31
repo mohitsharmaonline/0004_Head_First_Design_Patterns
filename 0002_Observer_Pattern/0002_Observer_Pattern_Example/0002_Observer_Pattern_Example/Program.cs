@@ -16,6 +16,7 @@ namespace _0002_Observer_Pattern_Example
             CurrentConditions currentConditionsDisplay = new CurrentConditions(weatherData);
             StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
             ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
+            HeatIndexDisplay heatIndexDisplay = new HeatIndexDisplay(weatherData);
 
             weatherData.SetMeasurements(80, 65, 30.4M);
             weatherData.SetMeasurements(82, 70, 29.2M);
