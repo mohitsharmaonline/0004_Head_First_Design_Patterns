@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Designs.Beverage">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEIAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Beverage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Designs.HouseBlend">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HouseBlend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Designs.DarkRoast">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DarkRoast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Designs.Espresso">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Espresso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Designs.Decaf">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Designs.CondimentDecorator">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CondimentDecorator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Beverage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Designs.Milk">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Milk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Designs.Mocha">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAIAAAAFAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mocha.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Designs.Soy">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAIAAAAFAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Soy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Designs.Whip">
+    <Position X="7.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAIAAAAFAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Whip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
