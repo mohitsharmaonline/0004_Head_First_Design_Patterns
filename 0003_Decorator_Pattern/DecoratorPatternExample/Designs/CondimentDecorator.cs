@@ -12,6 +12,6 @@ namespace Designs
             get;
         }
 
-        public abstract new string GetDescription();
+        
     }
 }

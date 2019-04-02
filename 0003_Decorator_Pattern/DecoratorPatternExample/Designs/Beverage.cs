@@ -9,7 +9,7 @@ namespace Designs
     {
         protected string _description = "Unknown Beverage";
 
-        public string GetDescription()
+        public virtual string GetDescription()
         {
             return _description;
         }
