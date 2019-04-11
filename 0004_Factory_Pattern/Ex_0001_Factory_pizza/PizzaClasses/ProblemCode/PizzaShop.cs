@@ -10,26 +10,9 @@ namespace PizzaClasses.ProblemCode
     {
         public Pizza OrderPizza(string type)
         {
-            Pizza pizza = null;
-            // Below is the type of code that shall require
-            // OrderPizza method to be modified every time
-            // a new pizza is introduced or old one is removed.
-            if(type == "cheese")
-            {
-                pizza = new CheesePizza();
-            }
-            else if(type == "pepproni")
-            {
-                pizza = new PepproniPizza();
-            }
-            else if (type == "clam")
-            {
-                pizza = new ClamPizza();
-            }
-            else if (type == "veggie")
-            {
-                pizza = new VeggiePizza();
-            }
+            SimplePizzaFactory pizzaFactory = new SimplePizzaFactory();
+            // Now only factory class shall change, Client code needs not to be changed.
+            Pizza pizza = pizzaFactory.CreatePizza(type);
 
             // below code will remain same.
             pizza.Prepare();

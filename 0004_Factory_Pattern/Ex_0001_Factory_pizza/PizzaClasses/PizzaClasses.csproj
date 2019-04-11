@@ -46,6 +46,7 @@
     <Compile Include="ProblemCode\PepproniPizza.cs" />
     <Compile Include="ProblemCode\Pizza.cs" />
     <Compile Include="ProblemCode\PizzaShop.cs" />
+    <Compile Include="ProblemCode\SimplePizzaFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProblemCode\VeggiePizza.cs" />
   </ItemGroup>
