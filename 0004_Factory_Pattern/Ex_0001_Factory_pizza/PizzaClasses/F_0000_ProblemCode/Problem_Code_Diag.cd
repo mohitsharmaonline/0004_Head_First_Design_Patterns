@@ -1,55 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="PizzaClasses.ProblemCode.CheesePizza">
+  <Class Name="PizzaClasses.F_0000_ProblemCode.CheesePizza">
     <Position X="5.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProblemCode\CheesePizza.cs</FileName>
+      <FileName>F_0000_ProblemCode\CheesePizza.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="PizzaClasses.ProblemCode.PepproniPizza">
+  <Class Name="PizzaClasses.F_0000_ProblemCode.PepproniPizza">
     <Position X="7.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProblemCode\PepproniPizza.cs</FileName>
+      <FileName>F_0000_ProblemCode\PepproniPizza.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="PizzaClasses.ProblemCode.ClamPizza">
+  <Class Name="PizzaClasses.F_0000_ProblemCode.ClamPizza">
     <Position X="9.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProblemCode\ClamPizza.cs</FileName>
+      <FileName>F_0000_ProblemCode\ClamPizza.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="PizzaClasses.ProblemCode.VeggiePizza">
+  <Class Name="PizzaClasses.F_0000_ProblemCode.VeggiePizza">
     <Position X="11" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProblemCode\VeggiePizza.cs</FileName>
+      <FileName>F_0000_ProblemCode\VeggiePizza.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="PizzaClasses.Pizza">
-    <Position X="7.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAQAAAAAAAAAQAAAAAAAAAAAAAIAAAAAAAAAAAAAQAA=</HashCode>
-      <FileName>ProblemCode\Pizza.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="PizzaClasses.ProblemCode.PizzaShop">
+  <Class Name="PizzaClasses.F_0000_ProblemCode.PizzaShop">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAEAAAAAAACAAAAAAA=</HashCode>
-      <FileName>ProblemCode\PizzaShop.cs</FileName>
+      <FileName>F_0000_ProblemCode\PizzaShop.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="SimplePizzaFactory" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="PizzaClasses.ProblemCode.SimplePizzaFactory">
+  <Class Name="PizzaClasses.F_0000_ProblemCode.SimplePizzaFactory">
     <Position X="2.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProblemCode\SimplePizzaFactory.cs</FileName>
+      <FileName>F_0000_ProblemCode\SimplePizzaFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Tahoma" Size="8.25" />

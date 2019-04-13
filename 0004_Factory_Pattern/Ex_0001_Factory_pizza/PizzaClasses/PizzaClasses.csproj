@@ -41,18 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProblemCode\CheesePizza.cs" />
-    <Compile Include="ProblemCode\ClamPizza.cs" />
-    <Compile Include="ProblemCode\PepproniPizza.cs" />
-    <Compile Include="ProblemCode\Pizza.cs" />
-    <Compile Include="ProblemCode\PizzaShop.cs" />
-    <Compile Include="ProblemCode\SimplePizzaFactory.cs" />
+    <Compile Include="F_0000_ProblemCode\CheesePizza.cs" />
+    <Compile Include="F_0000_ProblemCode\ClamPizza.cs" />
+    <Compile Include="F_0000_ProblemCode\PepproniPizza.cs" />
+    <Compile Include="F_0000_ProblemCode\Pizza.cs" />
+    <Compile Include="F_0000_ProblemCode\PizzaShop.cs" />
+    <Compile Include="F_0000_ProblemCode\SimplePizzaFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ProblemCode\VeggiePizza.cs" />
+    <Compile Include="F_0000_ProblemCode\VeggiePizza.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <None Include="ProblemCode\Problem_Code_Diag.cd" />
+    <Folder Include="F_0001_Refactoring\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F_0000_ProblemCode\Problem_Code_Diag.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
