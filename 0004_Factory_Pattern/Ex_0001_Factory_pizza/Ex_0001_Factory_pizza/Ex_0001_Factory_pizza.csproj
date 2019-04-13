@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PizzaClasses\PizzaClasses.csproj">
+      <Project>{71e9886f-1a80-40c4-aa20-6f04ee62594e}</Project>
+      <Name>PizzaClasses</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
