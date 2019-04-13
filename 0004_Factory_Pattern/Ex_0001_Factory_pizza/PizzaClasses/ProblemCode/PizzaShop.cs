@@ -8,11 +8,17 @@ namespace PizzaClasses.ProblemCode
 {
     public class PizzaShop
     {
+        SimplePizzaFactory _factory;
+
+        public PizzaShop(SimplePizzaFactory factory)
+        {
+            _factory = factory;
+        }
+
         public Pizza OrderPizza(string type)
         {
-            SimplePizzaFactory pizzaFactory = new SimplePizzaFactory();
             // Now only factory class shall change, Client code needs not to be changed.
-            Pizza pizza = pizzaFactory.CreatePizza(type);
+            Pizza pizza = _factory.CreatePizza(type);
 
             // below code will remain same.
             pizza.Prepare();
