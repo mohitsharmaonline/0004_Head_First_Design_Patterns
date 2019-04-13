@@ -21,7 +21,7 @@
       <FileName>F_0000_ProblemCode\ClamPizza.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="PizzaClasses.F_0000_ProblemCode.VeggiePizza">
+  <Class Name="PizzaClasses.F_0000_ProblemCode.NYStyleVeggiePizza">
     <Position X="11" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>

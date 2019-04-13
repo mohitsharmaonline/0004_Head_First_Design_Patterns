@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="All that the regional stores need to do is to subclass PizzaStore and supply a CreatePizza method that implements their style of Pizza.&#xD;&#xA;">
+    <Position X="4.406" Y="0.906" Height="0.885" Width="3.596" />
+  </Comment>
+  <Class Name="PizzaClasses.F_0001_Refactoring.PizzaStore">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>F_0001_Refactoring\PizzaStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PizzaClasses.F_0001_Refactoring.NYStylePizzaStore">
+    <Position X="1" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>F_0001_Refactoring\NYStylePizzaStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PizzaClasses.F_0001_Refactoring.ChicagoStylePizzaStore">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>F_0001_Refactoring\ChicagoStylePizzaStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

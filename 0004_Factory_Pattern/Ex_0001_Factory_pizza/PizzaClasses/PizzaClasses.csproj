@@ -47,14 +47,24 @@
     <Compile Include="F_0000_ProblemCode\Pizza.cs" />
     <Compile Include="F_0000_ProblemCode\PizzaShop.cs" />
     <Compile Include="F_0000_ProblemCode\SimplePizzaFactory.cs" />
+    <Compile Include="F_0001_Refactoring\ChicagoStyleCheesePizza.cs" />
+    <Compile Include="F_0001_Refactoring\ChicagoStyleClamPizza.cs" />
+    <Compile Include="F_0001_Refactoring\ChicagoStylePepproniPizza.cs" />
+    <Compile Include="F_0001_Refactoring\ChicagoStyleVeggiePizza.cs" />
+    <Compile Include="F_0001_Refactoring\NYStyleVeggiePizza.cs" />
+    <Compile Include="F_0001_Refactoring\PizzaStore.cs" />
+    <Compile Include="F_0001_Refactoring\ChicagoStylePizzaStore.cs" />
+    <Compile Include="F_0001_Refactoring\NYStyleCheesePizza.cs" />
+    <Compile Include="F_0001_Refactoring\NYStyleClamPizza.cs" />
+    <Compile Include="F_0001_Refactoring\NYStylePepproniPizza.cs" />
+    <Compile Include="F_0001_Refactoring\NYStylePizzaStore.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="F_0000_ProblemCode\VeggiePizza.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="F_0001_Refactoring\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="F_0000_ProblemCode\Problem_Code_Diag.cd" />
+    <None Include="F_0001_Refactoring\another_problem.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
