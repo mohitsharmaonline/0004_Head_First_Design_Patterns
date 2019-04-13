@@ -64,7 +64,7 @@
   <ItemGroup />
   <ItemGroup>
     <None Include="F_0000_ProblemCode\Problem_Code_Diag.cd" />
-    <None Include="F_0001_Refactoring\another_problem.cd" />
+    <None Include="F_0001_Refactoring\Factory_Method_Pattern.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
