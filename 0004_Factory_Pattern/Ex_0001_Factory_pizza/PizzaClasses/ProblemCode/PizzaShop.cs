@@ -15,6 +15,14 @@ namespace PizzaClasses.ProblemCode
             _factory = factory;
         }
 
+        public SimplePizzaFactory SimplePizzaFactory
+        {
+            get
+            {
+                return _factory;
+            }
+        }
+
         public Pizza OrderPizza(string type)
         {
             // Now only factory class shall change, Client code needs not to be changed.
