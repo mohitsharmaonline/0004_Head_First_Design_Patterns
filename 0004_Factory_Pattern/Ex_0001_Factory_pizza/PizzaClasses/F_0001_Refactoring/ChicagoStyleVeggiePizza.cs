@@ -9,5 +9,9 @@ namespace PizzaClasses.F_0001_Refactoring
 {
     public class ChicagoStyleVeggiePizza : Pizza
     {
+        public override void Prepare()
+        {
+            //throw new NotImplementedException();
+        }
     }
 }

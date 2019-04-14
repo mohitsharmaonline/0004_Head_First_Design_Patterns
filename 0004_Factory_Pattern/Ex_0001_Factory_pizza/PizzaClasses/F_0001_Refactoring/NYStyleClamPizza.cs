@@ -7,5 +7,10 @@ namespace PizzaClasses.F_0001_Refactoring
         public NYStyleClamPizza()
         {
         }
+
+        public override void Prepare()
+        {
+            //throw new System.NotImplementedException();
+        }
     }
 }

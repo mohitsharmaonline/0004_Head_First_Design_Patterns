@@ -50,6 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\IngrediantFactoryClasses\IngrediantFactoryClasses.csproj">
+      <Project>{7d631406-8eca-469b-8798-b536d4b25f1f}</Project>
+      <Name>IngrediantFactoryClasses</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PizzaClasses\PizzaClasses.csproj">
       <Project>{71e9886f-1a80-40c4-aa20-6f04ee62594e}</Project>
       <Name>PizzaClasses</Name>

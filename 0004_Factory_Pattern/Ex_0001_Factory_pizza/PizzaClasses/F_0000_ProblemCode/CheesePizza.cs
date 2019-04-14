@@ -7,5 +7,9 @@ namespace PizzaClasses.F_0000_ProblemCode
 {
     public class CheesePizza : Pizza
     {
+        public override void Prepare()
+        {
+            //throw new NotImplementedException();
+        }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IngrediantFactoryClasses;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +9,15 @@ namespace PizzaClasses.F_0000_ProblemCode
     public abstract class Pizza
     {
         private string _name;
-        protected string _dough;
-        protected string _sauce;
+        protected IDough _dough;
+        protected ISauce _sauce;
+        protected IVeggies[] _veggies;
+        protected ICheese _cheese;
+        protected IPepperoni _pepperoni;
+        protected IClams _clams;
+
+
+        public abstract void Prepare();
 
         protected List<string> _toppings = new List<string>();
 
@@ -25,18 +33,7 @@ namespace PizzaClasses.F_0000_ProblemCode
             }
         }
                 
-        public void Prepare()
-        {
-            Console.WriteLine($"Preparing {_name}");
-            Console.WriteLine("Tossing dough...");
-            Console.WriteLine("Adding sauce...");
-            Console.WriteLine("Adding toppings:");
-
-            foreach(string topping in _toppings)
-            {
-                Console.WriteLine($"  {topping}");
-            }
-        }
+        
 
         public void Bake()
         {

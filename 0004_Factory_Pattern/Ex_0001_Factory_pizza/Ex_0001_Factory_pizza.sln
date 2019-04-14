@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex_0001_Factory_pizza", "Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaClasses", "PizzaClasses\PizzaClasses.csproj", "{71E9886F-1A80-40C4-AA20-6F04EE62594E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IngrediantFactoryClasses", "IngrediantFactoryClasses\IngrediantFactoryClasses.csproj", "{7D631406-8ECA-469B-8798-B536D4B25F1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{71E9886F-1A80-40C4-AA20-6F04EE62594E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71E9886F-1A80-40C4-AA20-6F04EE62594E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71E9886F-1A80-40C4-AA20-6F04EE62594E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D631406-8ECA-469B-8798-B536D4B25F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D631406-8ECA-469B-8798-B536D4B25F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D631406-8ECA-469B-8798-B536D4B25F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D631406-8ECA-469B-8798-B536D4B25F1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

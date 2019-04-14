@@ -7,5 +7,10 @@ namespace PizzaClasses
         public NYStylePepproniPizza()
         {
         }
+
+        public override void Prepare()
+        {
+            //throw new System.NotImplementedException();
+        }
     }
 }

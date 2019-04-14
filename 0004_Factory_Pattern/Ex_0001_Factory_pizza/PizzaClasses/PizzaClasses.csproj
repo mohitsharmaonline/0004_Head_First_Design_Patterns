@@ -58,10 +58,19 @@
     <Compile Include="F_0001_Refactoring\NYStyleClamPizza.cs" />
     <Compile Include="F_0001_Refactoring\NYStylePepproniPizza.cs" />
     <Compile Include="F_0001_Refactoring\NYStylePizzaStore.cs" />
+    <Compile Include="F_0002_Refactoring\CheesePizza.cs" />
+    <Compile Include="F_0002_Refactoring\ClamPizza.cs" />
+    <Compile Include="F_0002_Refactoring\PepperoniPizza.cs" />
+    <Compile Include="F_0002_Refactoring\VeggiePizza.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="F_0000_ProblemCode\VeggiePizza.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\IngrediantFactoryClasses\IngrediantFactoryClasses.csproj">
+      <Project>{7D631406-8ECA-469B-8798-B536D4B25F1F}</Project>
+      <Name>IngrediantFactoryClasses</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="F_0000_ProblemCode\Problem_Code_Diag.cd" />
     <None Include="F_0001_Refactoring\Factory_Method_Pattern.cd" />
