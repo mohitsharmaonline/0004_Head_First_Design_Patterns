@@ -6,23 +6,14 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    public class ChocolateBoiler
+    public sealed class ChocolateBoiler
     {
         private bool _empty;
         private bool _boiled;
         private static ChocolateBoiler _instance;
 
-        public static ChocolateBoiler Instance
-        {
-            get
-            {
-                if(_instance == null)
-                {
-                    _instance = new ChocolateBoiler();
-                }
-                return _instance;
-            }
-        }
+        public static ChocolateBoiler Instance => Nested.Instance;
+        
 
         private ChocolateBoiler()
         {
@@ -51,6 +42,15 @@ namespace Classes
                 // drain
                 _empty = true;
             }
+        }
+
+        public class Nested
+        {
+            static Nested()
+            {
+            }
+
+            internal static readonly ChocolateBoiler Instance = new ChocolateBoiler();
         }
         
     }
